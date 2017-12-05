@@ -1,5 +1,16 @@
-Encryption: gpg -c
+Decrypt:
+	gpg docs.zip
 
-Decryption:
+Unzip:
+	unzip docs.zip
+
+Zip:
+	zip -r docs.zip [sourceDir]
+
+
+
+Enc: gpg -c
+
+Dec:
 	>> gpg [file]
 	>> [enter passphrase]
